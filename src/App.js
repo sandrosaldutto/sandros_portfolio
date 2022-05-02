@@ -1,9 +1,13 @@
 import './App.scss';
+import { BrowserRouter} from "react-router-dom";
+import Nav from "./components/Nav/Nav";
 
 function App() {
   return (
     <>
-      <p>hi</p>
+      <BrowserRouter>
+        <Nav/>
+      </BrowserRouter>
     </>
   );
 }
