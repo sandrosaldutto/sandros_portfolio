@@ -19,33 +19,92 @@ function Skills() {
       <div className="skills__container">
         <img src={webdevIcon} alt="webdev" className="skills__icon" />
         <h2 className="skills__sub-title">Web Development</h2>
-        <div className="skills__tools-container">
-          <div>
-            <img src={htmlIcon} alt="html" className="skills__tool-icon" />
-            <img src={cssIcon} alt="css" className="skills__tool-icon" />
+        <div className="skills__webdev-skills">
+          <div className="skills__row">
+            <div className="skills__image">
+              <img src={htmlIcon} alt="html" className="skills__tool-icon" />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">HTML</h3>
+              </div>
+            </div>
+            <div className="skills__image">
+              <img src={cssIcon} alt="css" className="skills__tool-icon" />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">CSS</h3>
+              </div>
+            </div>
           </div>
-          <div>
-            <img src={jsIcon} alt="javascript" className="skills__tool-icon" />
-            <img src={reactIcon} alt="react" className="skills__tool-icon" />
+          <div className="skills__row">
+            <div className="skills__image">
+              <img
+                src={jsIcon}
+                alt="javascript"
+                className="skills__tool-icon"
+              />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">Java Script</h3>
+              </div>
+            </div>
+            <div className="skills__image">
+              <img src={reactIcon} alt="react" className="skills__tool-icon" />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">React</h3>
+              </div>
+            </div>
           </div>
-          <div>
-            <img src={mysqlIcon} alt="mysql" className="skills__tool-icon" />
-            <img src={nodeIcon} alt="node" className="skills__tool-icon" />
+          <div className="skills__row">
+            <div className="skills__image">
+              <img src={mysqlIcon} alt="mysql" className="skills__tool-icon" />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">MySQL</h3>
+              </div>
+            </div>
+            <div className="skills__image">
+              <img src={nodeIcon} alt="node" className="skills__tool-icon" />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">Node</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
       <div className="skills__container">
         <img src={designIcon} alt="design" className="skills__icon" />
         <h2 className="skills__sub-title">Design</h2>
-        <div className="skills__skills-container">
-          <div>
-            <img src={aiIcon} alt="illustrator" className="skills__tool-icon" />
-            <img src={psIcon} alt="photoshop" className="skills__tool-icon" />
+        <div className="skills__row">
+          <div className="skills__image">
+            <img
+              src={aiIcon}
+              alt="adobe illustrator"
+              className="skills__tool-icon"
+            />
+            <div className="skills__overlay">
+              <h3 className="skills__icon-name">Illustrator</h3>
+            </div>
           </div>
-          <div>
+          <div className="skills__image">
+            <img
+              src={psIcon}
+              alt="adobe photoshop"
+              className="skills__tool-icon"
+            />
+            <div className="skills__overlay">
+              <h3 className="skills__icon-name">Photoshop</h3>
+            </div>
+          </div>
+        </div>
+        <div className="skills__row">
+          <div className="skills__image">
+            <img src={xdIcon} alt="adobe XD" className="skills__tool-icon" />
+            <div className="skills__overlay">
+              <h3 className="skills__icon-name">XD</h3>
+            </div>
+          </div>
+          <div className="skills__image">
             <img src={figmaIcon} alt="figma" className="skills__tool-icon" />
-            <img src={xdIcon} alt="xd" className="skills__tool-icon" />
+            <div className="skills__overlay">
+              <h3 className="skills__icon-name">Figma</h3>
+            </div>
           </div>
         </div>
       </div>
