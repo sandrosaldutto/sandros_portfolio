@@ -8,11 +8,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 5rem;
 
     &__title {
-        font-weight: 600;
-        color: $dark-blue;
-        font-size: 1.25rem
+        width: 9rem;
+        margin: 1rem 0;;
     }
     
     &__about-container {
@@ -22,7 +22,7 @@
         align-items: center;
         width: 100vw;
         padding: 1.5rem 0;
-        background: $dark-blue;
+        background: $blue;
     }
 
     &__linkedin {
