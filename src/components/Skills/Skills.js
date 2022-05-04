@@ -15,7 +15,7 @@ import xdIcon from "../../assets/icons/xd.svg";
 function Skills() {
   return (
     <section className="skills">
-      <h2 className="skills__title">Tools</h2>
+      <h2 className="skills__title">Skills</h2>
       <div className="skills__container">
         <img src={webdevIcon} alt="webdev" className="skills__icon" />
         <h2 className="skills__sub-title">Web Development</h2>
@@ -38,7 +38,7 @@ function Skills() {
       <div className="skills__container">
         <img src={designIcon} alt="design" className="skills__icon" />
         <h2 className="skills__sub-title">Design</h2>
-        <div className="skills__tools-container">
+        <div className="skills__skills-container">
           <div>
             <img src={aiIcon} alt="illustrator" className="skills__tool-icon" />
             <img src={psIcon} alt="photoshop" className="skills__tool-icon" />
