@@ -2,7 +2,6 @@ import "./Header.scss";
 import avatar from "../../assets/images/avatar.png";
 import linkedinLogo from "../../assets/icons/linkedin.svg";
 import githubLogo from "../../assets/icons/github.svg";
-import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -17,14 +16,14 @@ function Header() {
           development stages I have the ability to bring design to life.
         </p>
         <div className="header__contact">
-          <a className="header__linkedin-link" href="https://www.linkedin.com/in/sandrosaldutto/" target="_blank">
+          <a className="header__linkedin-link" href="https://www.linkedin.com/in/sandrosaldutto/" target="_blank" rel="noreferrer">
             <img
               src={linkedinLogo}
               alt="linkedin"
               className="header__linkedin"
             />
           </a>
-          <a className="header__github-link" href="https://github.com/sandrosaldutto" target="_blank">
+          <a className="header__github-link" href="https://github.com/sandrosaldutto" target="_blank" rel="noreferrer">
           <img src={githubLogo} alt="github" className="header__github" />
           </a>
         </div>
