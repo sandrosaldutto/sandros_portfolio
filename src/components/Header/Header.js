@@ -6,8 +6,8 @@ import headerTitle from "../../assets/icons/header-title.svg";
 
 function Header() {
   return (
-    <section className="header">
-      <img src={headerTitle} alt="sandro's avatar" className="header__title" />
+    <section id="about" className="header">
+      <img id="home" src={headerTitle} alt="sandro's avatar" className="header__title" />
       <img src={avatar} alt="sandro's avatar" className="header__avatar" />
       <div className="header__about-container">
         <h2 className="header__blurb-title">Hello.</h2>

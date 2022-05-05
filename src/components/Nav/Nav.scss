@@ -5,17 +5,39 @@
 
 .nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 0;
   border-bottom: 2px solid $light-grey;
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   background-color: white;
   z-index: 1;
+  padding: .5rem 0;
 
   &__logo {
-    width: 20px;
+    width: 1rem;
+    margin-left: 2rem;
+  }
+
+  &__menu {
+    margin-right: 1rem;
+  }
+
+  &__menu-item {
+    margin: 0 .5rem;
+    font-size: .85rem;
+    color: $dark-blue;
+    cursor: pointer;
+
+    &:hover {
+      color: $blue;
+      font-weight: 700;
+    }
+  }
+
+  .active {
+    color: $blue;
+    font-weight: 700;
   }
 }
