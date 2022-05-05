@@ -1,0 +1,74 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.projects {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 1.5rem;
+        background-color: $telect-light-teal;
+
+        &--wordler {
+            background-color: white;
+        }
+
+        &--shopify {
+            background-color: $shopify-dark-green;
+        }
+    }
+    
+    &__title {
+        font-weight: 700;
+        color: $dark-blue;
+        font-size: 1.75rem;
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__logo {
+        margin: 1rem 0 .75rem 0;
+        width: 200px;
+
+        &--shopify {
+            width: 100px;
+        }
+    }
+
+    &__copy {
+        color: $dark-grey;
+        margin-bottom: 1.5rem;
+        line-height: 1.3;
+
+        &--shopify {
+            color: white;
+        }
+    }
+
+    &__button {
+        border: none;
+        width: 95%;
+        border-radius: 50px;
+        padding: .5rem 0;
+        margin-bottom: 1rem;
+        background-color: $telect-dark-teal;
+        color: white;
+
+        &--wordler {
+            background-color: $wordler-purple;
+        }
+
+        &--shopify {
+            background-color: $shopify-light-green;
+        }
+    }
+}
