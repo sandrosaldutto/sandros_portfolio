@@ -11,8 +11,17 @@ import psIcon from "../../assets/icons/ps.svg";
 import aiIcon from "../../assets/icons/ai.svg";
 import figmaIcon from "../../assets/icons/figma.svg";
 import xdIcon from "../../assets/icons/xd.svg";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 
 function Skills() {
+  
+    useEffect(() => {
+      Aos.init({ duration:1500 });
+    }, [])
+  
   return (
     <section id="skills" className="skills">
       <h2 className="skills__title">Skills</h2>
@@ -20,7 +29,7 @@ function Skills() {
         <img src={webdevIcon} alt="webdev" className="skills__icon" />
         <h2 className="skills__sub-title">Web Development</h2>
         <div className="skills__webdev-skills">
-          <div className="skills__row">
+          <div data-aos="fade-up" className="skills__row">
             <div className="skills__image">
               <img src={htmlIcon} alt="html" className="skills__tool-icon" />
               <div className="skills__overlay">
@@ -34,7 +43,7 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="skills__row">
+          <div data-aos="fade-up" className="skills__row">
             <div className="skills__image">
               <img
                 src={jsIcon}
@@ -52,7 +61,7 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="skills__row">
+          <div data-aos="fade-up" className="skills__row">
             <div className="skills__image">
               <img src={mysqlIcon} alt="mysql" className="skills__tool-icon" />
               <div className="skills__overlay">
@@ -72,7 +81,7 @@ function Skills() {
         <img src={designIcon} alt="design" className="skills__icon" />
         <h2 className="skills__sub-title">Design</h2>
         <div className="skills__design-skills">
-        <div className="skills__row">
+        <div data-aos="fade-up" className="skills__row">
           <div className="skills__image">
             <img
               src={aiIcon}
@@ -94,7 +103,7 @@ function Skills() {
             </div>
           </div>
         </div>
-        <div className="skills__row">
+        <div data-aos="fade-up" className="skills__row">
           <div className="skills__image">
             <img src={xdIcon} alt="adobe XD" className="skills__tool-icon" />
             <div className="skills__overlay">

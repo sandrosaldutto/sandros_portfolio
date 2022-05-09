@@ -2,12 +2,20 @@ import "./ProjectGallery.scss";
 import telectIcon from "../../assets/icons/telect.svg";
 import wordlerIcon from "../../assets/icons/wordler.svg";
 import shopifyIcon from "../../assets/icons/shopify.svg";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function ProjectGallery() {
+  
+useEffect(() => {
+  Aos.init({ duration:1500 });
+}, [])
+
   return (
     <section id="projects" className="projects">
       <h2 className="projects__title"> Projects</h2>
-      <div className="projects__container">
+      <div data-aos="fade-right" className="projects__container">
         <img
           className="projects__logo"
           src={telectIcon}
@@ -23,7 +31,7 @@ function ProjectGallery() {
           <button className="projects__button">Enter Site</button>
         </div>
       </div>
-      <div className="projects__container projects__container--wordler">
+      <div  data-aos="fade-left" className="projects__container projects__container--wordler">
         <img
           className="projects__logo"
           src={wordlerIcon}
@@ -40,7 +48,7 @@ function ProjectGallery() {
           </button>
         </div>
       </div>
-      <div className="projects__container projects__container--shopify">
+      <div data-aos="fade-right" className="projects__container projects__container--shopify">
         <img
           className="projects__logo projects__logo--shopify"
           src={shopifyIcon}
