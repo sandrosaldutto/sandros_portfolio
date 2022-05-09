@@ -45,10 +45,10 @@
     
     &__title {
         font-weight: 700;
-        color: $dark-blue;
+        color: $blue;
         font-size: 1.75rem;
         padding: 0 1rem;
-        margin-bottom: 2rem;
+        margin: 2rem 2rem;
 
         @include tablet {
             font-size: 2rem;

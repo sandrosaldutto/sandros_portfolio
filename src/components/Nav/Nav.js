@@ -26,7 +26,7 @@ function Nav() {
           to="skills"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-70}
           duration={500}
         >
           Skills
@@ -37,7 +37,7 @@ function Nav() {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-70}
           duration={500}
         >
           Projects
