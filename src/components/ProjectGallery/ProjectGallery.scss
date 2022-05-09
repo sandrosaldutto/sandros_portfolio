@@ -15,15 +15,28 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 1rem 1.5rem;
+        padding: 2rem 1.5rem;
         background-color: $telect-light-teal;
+
+        @include tablet {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 2rem 3rem;
+        }
 
         &--wordler {
             background-color: white;
+            margin: 2rem 0;
         }
 
         &--shopify {
             background-color: $shopify-dark-green;
+        }
+    }
+
+    &__right-container {
+        @include tablet {
+            width: 60%;
         }
     }
     
@@ -32,7 +45,11 @@
         color: $dark-blue;
         font-size: 1.75rem;
         padding: 0 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+
+        @include tablet {
+            font-size: 2rem;
+        }
     }
 
     &__logo {
@@ -41,6 +58,10 @@
 
         &--shopify {
             width: 100px;
+            @include tablet {
+                margin-left: 2.25rem;
+                width: 110px;
+            }
         }
     }
 
@@ -62,13 +83,27 @@
         margin-bottom: 1rem;
         background-color: $telect-dark-teal;
         color: white;
+        font-weight: 700;;
+        box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.5);
+
+        &:hover {
+            background-color: $telect-teal;
+        }
 
         &--wordler {
             background-color: $wordler-purple;
+            
+            &:hover {
+                background-color: $wordler-dark-purple
+            }
         }
 
         &--shopify {
             background-color: $shopify-light-green;
+
+            &:hover {
+                background-color: $shopify-dark-green;
+            }
         }
     }
 }

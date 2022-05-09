@@ -24,6 +24,10 @@
         font-size: 1.75rem;
         padding: 0 1rem;
         margin-bottom: 0;
+
+        @include tablet {
+            font-size: 2rem;
+        }
     }
 
     &__sub-title {
@@ -31,6 +35,10 @@
         color: $blue;
         font-size: 1rem;
         margin-bottom: 1.5rem;
+
+        @include tablet {
+            font-size: 1.25rem;
+        }
     }
 
     &__row {
@@ -48,6 +56,19 @@
     &__webdev-skills {
         display: flex;
         flex-direction: column;
+        
+        @include tablet {
+            flex-direction: row;
+        }
+    }
+
+    &__design-skills {
+        display: flex;
+        flex-direction: column;
+        
+        @include tablet {
+            flex-direction: row;
+        }
     }
 
     &__tool-icon {
@@ -59,6 +80,10 @@
         position: relative;
         width: 3rem;
         margin: 1rem;
+
+        @include tablet {
+            width: 4rem;
+        }
     }
 
     &__overlay {
@@ -75,6 +100,11 @@
         color: $blue;
         font-size: .75rem;
         opacity: 0;
+        text-align: center;
+
+        @include tablet {
+            font-size: 1rem;
+        }
 
         &:hover {
            opacity: 1; 

@@ -71,6 +71,7 @@ function Skills() {
       <div className="skills__container">
         <img src={designIcon} alt="design" className="skills__icon" />
         <h2 className="skills__sub-title">Design</h2>
+        <div className="skills__design-skills">
         <div className="skills__row">
           <div className="skills__image">
             <img
@@ -106,6 +107,7 @@ function Skills() {
               <h3 className="skills__icon-name">Figma</h3>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>

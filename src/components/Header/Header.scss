@@ -14,7 +14,11 @@
 
     &__title {
         width: 9rem;
-        margin: 2rem 0;;
+        margin: 2rem 0;
+
+        @include tablet {
+            width: 12rem;;
+        }
     }
     
     &__about-container {
@@ -29,16 +33,28 @@
 
     &__linkedin {
         width: 25px;
+
+        @include tablet {
+            width: 30px;
+        }
     }
 
     &__github {
         width: 25px;
+
+        @include tablet {
+            width: 30px;
+        }
     }
 
     &__avatar {
         margin-top: 1rem;
         width: 100px;
         align-self: center;
+
+        @include tablet {
+            width: 110px;
+        }
     }
 
     &__blurb {
@@ -46,6 +62,11 @@
         margin: .5rem 1rem;
         text-align: center;
         line-height: 1.35;
+
+        @include tablet {
+            font-size: 1.25rem;
+            padding: 0 1rem;
+        }
     }
 
     &__blurb-title {
@@ -55,6 +76,10 @@
         text-align: center;
         margin-bottom: .5rem;
         margin-top: 0;
+
+        @include tablet {
+            font-size: 1.75rem
+        }
     }
 
     &__contact {
@@ -71,6 +96,6 @@
 
     &__github-link{
         width: 25px;
-        height: 25px;
+        height: 25px;       
     }
 }

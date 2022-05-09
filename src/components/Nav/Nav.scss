@@ -18,6 +18,10 @@
   &__logo {
     width: 1rem;
     margin-left: 2rem;
+
+    @include tablet {
+      width: 1.25rem;
+    }
   }
 
   &__menu {
@@ -29,6 +33,10 @@
     font-size: .85rem;
     color: $dark-blue;
     cursor: pointer;
+
+    @include tablet {
+      font-size: 1rem;
+    }
   }
 
   .active {
