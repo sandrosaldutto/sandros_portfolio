@@ -12,6 +12,10 @@
     background-position: center;
     background-size: cover;
 
+    @include desktop {
+        margin-top: 6rem;
+    }
+
     &__title {
         width: 9rem;
         margin: 2rem 0;
