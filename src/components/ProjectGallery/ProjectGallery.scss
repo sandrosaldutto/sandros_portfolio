@@ -21,7 +21,7 @@
         @include tablet {
             flex-direction: row;
             justify-content: space-between;
-            padding: 2rem 6rem;
+            padding: 2rem 4rem;
         }
 
         &--wordler {
@@ -94,7 +94,6 @@
         @include desktop {
             margin-bottom: 2rem;
             padding: 0 2rem;
-            text-align: center;
         }
 
         &--shopify {
@@ -119,7 +118,7 @@
         }
 
         @include tablet {
-            width: 25%;
+            width: 30%;
         }
         @include desktop {
             width: 25%;

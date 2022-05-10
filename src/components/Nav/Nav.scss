@@ -13,11 +13,7 @@
   width: 100%;
   background-color: white;
   z-index: 1;
-  padding: .5rem 0;
-
-  @include desktop {
-    padding: 1rem 0;
-  }
+  padding: 1rem 0;
 
   &__logo {
     width: 1rem;
@@ -25,10 +21,10 @@
 
     @include tablet {
       width: 1.25rem;
+      margin-left: 5rem;
     }
 
     @include desktop {
-      margin-left: 5rem;
       width: 1.5rem;
     }
   }
@@ -36,8 +32,8 @@
   &__menu {
     margin-right: 1rem;
 
-    @include desktop {
-      margin-right: 5rem;
+    @include tablet {
+      margin-right: 4rem;
     }
   }
 
