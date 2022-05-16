@@ -33,7 +33,27 @@
         padding: 1.5rem 0;
         background: $blue;
     }
+    
+    &__email {
+        margin: 1rem 0 .5rem 0;
+        color: white;
+        font-size: .85rem;
 
+        @include tablet {
+            font-size: 1rem;
+            margin: 1.5rem 0 .5rem 0;
+        }
+    }
+
+    &__phone {
+        margin: .5rem 0;
+        color: white;
+        font-size: .85rem;
+
+         @include tablet {
+            font-size: 1rem;
+        }
+    }
     &__linkedin {
         width: 25px;
 
@@ -65,11 +85,16 @@
         margin: .5rem 1rem;
         text-align: center;
         line-height: 1.35;
-        padding: 0 1.25rem;
+        padding: .5rem 1.25rem;
 
         @include tablet {
-            padding: 0 7rem;
+            font-size: 1.25rem;
+            padding: 1rem 10rem;
         }
+    }
+
+    &__blurb-bold {
+        font-weight: 700;
     }
 
     &__blurb-title {
@@ -81,7 +106,7 @@
         margin-top: 0;
 
         @include tablet {
-            font-size: 1.75rem
+            font-size: 2rem
         }
     }
 

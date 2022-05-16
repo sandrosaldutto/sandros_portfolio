@@ -7,10 +7,9 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function ProjectGallery() {
-  
-useEffect(() => {
-  Aos.init({ duration:1500 });
-}, [])
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
 
   return (
     <section id="projects" className="projects">
@@ -28,10 +27,20 @@ useEffect(() => {
             Telect is a web-responsive application that strives to satisfy the
             avid TV show watcher's need for organization.{" "}
           </p>
-          <button className="projects__button">Enter Site</button>
+          <a
+            className="projects__link"
+            href="https://shopify-collab.herokuapp.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="projects__button">Enter Site</button>
+          </a>
         </div>
       </div>
-      <div  data-aos="fade-down" className="projects__container projects__container--wordler">
+      <div
+        data-aos="fade-down"
+        className="projects__container projects__container--wordler"
+      >
         <img
           className="projects__logo"
           src={wordlerIcon}
@@ -43,12 +52,22 @@ useEffect(() => {
             other group member on my team. We decided to make a fun simple game
             taking some ideas from Wordle.
           </p>
-          <button className="projects__button projects__button--wordler">
-            Enter Site
-          </button>
+          <a
+            className="projects__link"
+            href="https://shopify-collab.herokuapp.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="projects__button projects__button--wordler">
+              Enter Site
+            </button>
+          </a>
         </div>
       </div>
-      <div data-aos="fade-down" className="projects__container projects__container--shopify">
+      <div
+        data-aos="fade-down"
+        className="projects__container projects__container--shopify"
+      >
         <img
           className="projects__logo projects__logo--shopify"
           src={shopifyIcon}
@@ -63,9 +82,16 @@ useEffect(() => {
             grow thier business. We decided to focus on connecting business
             owners who want to sell something and artists who have a product.
           </p>
-          <button className="projects__button projects__button--shopify">
-            Enter Site
-          </button>
+          <a
+            className="projects__link"
+            href="https://shopify-collab.herokuapp.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="projects__button projects__button--shopify">
+              Enter Site
+            </button>
+          </a>
         </div>
       </div>
     </section>

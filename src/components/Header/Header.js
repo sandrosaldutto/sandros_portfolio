@@ -13,7 +13,7 @@ function Header() {
         <h2 className="header__blurb-title">Hello.</h2>
         <p className="header__blurb">
           I am a web developer with a background and education in Graphic
-          Design. I have the ability to bring design to life.
+          Design. <span className="header__blurb-bold">I have the ability to bring design to life.</span>
         </p>
         <div className="header__contact">
           <a className="header__linkedin-link" href="https://www.linkedin.com/in/sandrosaldutto/" target="_blank" rel="noreferrer">
@@ -27,6 +27,8 @@ function Header() {
           <img src={githubLogo} alt="github" className="header__github" />
           </a>
         </div>
+        <p className="header__email">sandro.saldutto@hotmail.ca</p>
+        <p className="header__phone">416 271 3726</p>
       </div>
     </section>
   );
