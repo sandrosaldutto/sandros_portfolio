@@ -22,10 +22,11 @@ function ProjectGallery() {
         ></img>
         <div className="projects__right-container">
           <p className="projects__copy">
-            Telect is my capstone project from Branstations Web Developent
-            bootcamp. This project was created in a tight 2 week timeline.
             Telect is a web-responsive application that strives to satisfy the
-            avid TV show watcher's need for organization.{" "}
+            avid TV show watcher's need for organization. The app provides the user with the ability to
+            search shows from a database, and add and remove these shows from
+            their list. Telect is my capstone project that I created while
+            attending Branstation's Web Developent bootcamp.
           </p>
           <a
             className="projects__link"
@@ -48,9 +49,11 @@ function ProjectGallery() {
         ></img>
         <div className="projects__right-container">
           <p className="projects__copy">
-            Wordler is an example of a 24 hour hack-a-thon in which I had 1
-            other group member on my team. We decided to make a fun simple game
-            taking some ideas from Wordle.
+            Wordler is a kid-centric twist on the popular Wordle game. The game
+            provides a 5-letter word with jumbled letters that the user must
+            assemble into a real word. Wordler is an example of a 24-hour
+            hack-a-thon, done in pairs, from Brainstation's Web Development
+            Program.
           </p>
           <a
             className="projects__link"
@@ -75,12 +78,12 @@ function ProjectGallery() {
         ></img>
         <div className="projects__right-container">
           <p className="projects__copy projects__copy--shopify">
-            Shopify Collab is another example of a 24 hour hack-a-thon but this
-            one is special because I was partnered with a team of people. My
-            team consisted of 2 UX designers, 1 Data Scientist and 3 Web
-            Developers. The goal for this project was to explain how Shopify can
-            grow thier business. We decided to focus on connecting business
-            owners who want to sell something and artists who have a product.
+            Shopify Collab is an idea that allows Shopify to grow their
+            business. The web application is a tool to connect business owners
+            who are looking to sell products, to artsits who supply the
+            products for sale. Shopify Collab is another example of a 24 hour
+            hack-a-thon, but done by a larger team, consisting of two UX
+            designers, one Data Scientist and three Web Developers.
           </p>
           <a
             className="projects__link"

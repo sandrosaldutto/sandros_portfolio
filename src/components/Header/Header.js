@@ -13,8 +13,9 @@ function Header() {
         <h2 className="header__blurb-title">Hello.</h2>
         <p className="header__blurb">
           I am a web developer with a background and education in Graphic
-          Design. <span className="header__blurb-bold">I have the ability to bring design to life.</span>
+          Design. 
         </p>
+        <p className="header__blurb-bold">I have the ability to bring design to life.</p>
         <div className="header__contact">
           <a className="header__linkedin-link" href="https://www.linkedin.com/in/sandrosaldutto/" target="_blank" rel="noreferrer">
             <img
