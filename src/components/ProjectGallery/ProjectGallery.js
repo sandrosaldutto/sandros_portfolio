@@ -30,7 +30,7 @@ function ProjectGallery() {
           </p>
           <a
             className="projects__link"
-            href="https://shopify-collab.herokuapp.com"
+            href="https://telect-client.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
