@@ -1,6 +1,6 @@
 import "./ProjectGallery.scss";
 import telectIcon from "../../assets/icons/telect.svg";
-// import wordlerIcon from "../../assets/icons/wordler.svg";
+import wordlerIcon from "../../assets/icons/wordler.svg";
 import shopifyIcon from "../../assets/icons/shopify.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
