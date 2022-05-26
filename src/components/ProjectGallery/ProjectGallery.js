@@ -38,7 +38,7 @@ function ProjectGallery() {
           </a>
         </div>
       </div>
-      {/* <div
+      <div
         data-aos="fade-down"
         className="projects__container projects__container--wordler"
       >
@@ -57,7 +57,7 @@ function ProjectGallery() {
           </p>
           <a
             className="projects__link"
-            href="https://shopify-collab.herokuapp.com"
+            href="https://wordler-client.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -66,7 +66,7 @@ function ProjectGallery() {
             </button>
           </a>
         </div>
-      </div> */}
+      </div>
       <div
         data-aos="fade-down"
         className="projects__container projects__container--shopify"
