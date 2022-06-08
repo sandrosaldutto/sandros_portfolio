@@ -10,12 +10,6 @@ function Header() {
       <img id="home" src={headerTitle} alt="sandro's avatar" className="header__title" />
       <img src={avatar} alt="sandro's avatar" className="header__avatar" />
       <div className="header__about-container">
-        <h2 className="header__blurb-title">Hello.</h2>
-        <p className="header__blurb">
-          I am a web developer with a background and education in Graphic
-          Design. 
-        </p>
-        <p className="header__blurb-bold">I have the ability to bring design to life.</p>
         <div className="header__contact">
           <a className="header__linkedin-link" href="https://www.linkedin.com/in/sandrosaldutto/" target="_blank" rel="noreferrer">
             <img
