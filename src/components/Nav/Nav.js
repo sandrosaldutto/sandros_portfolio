@@ -18,7 +18,7 @@ function Nav() {
           offset={50}
           duration={500}
         >
-          About
+          Contact
         </Link>
         <Link
           activeClass="active"
