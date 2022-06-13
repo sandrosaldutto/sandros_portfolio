@@ -12,7 +12,7 @@ function Nav() {
         <Link
           activeClass="active"
           className="nav__menu-item"
-          to="about"
+          to="contact"
           spy={true}
           smooth={true}
           offset={50}
