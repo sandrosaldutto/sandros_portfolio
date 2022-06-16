@@ -2,6 +2,7 @@ import "./ProjectGallery.scss";
 import telectIcon from "../../assets/icons/telect.svg";
 import wordlerIcon from "../../assets/icons/wordler.svg";
 import shopifyIcon from "../../assets/icons/shopify.svg";
+import tnIcon from "../../assets/icons/tn.svg"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -92,6 +93,31 @@ function ProjectGallery() {
             rel="noreferrer"
           >
             <button className="projects__button projects__button--shopify">
+              Enter Site
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        data-aos="fade-down"
+        className="projects__container projects__container--tn"
+      >
+        <img
+          className="projects__logo projects__logo--tn"
+          src={tnIcon}
+          alt="shopify logo"
+        ></img>
+        <div className="projects__right-container">
+          <p className="projects__copy projects__copy--tn">
+            Truscello Nair LLP is website I designed for a pair of starting-out criminal lawyers. The intent of their website is to provide information to those looking for a criminal lawyer or information on the process, along with contact information for potential representation. As the clients wanted to continue their own site updates and edits past initial launch, the site is hosted on Wix. 
+          </p>
+          <a
+            className="projects__link"
+            href="https://www.truscellonairllp.ca/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="projects__button projects__button--tn">
               Enter Site
             </button>
           </a>

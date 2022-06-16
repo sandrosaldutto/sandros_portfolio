@@ -32,6 +32,10 @@
         &--shopify {
             background-color: $shopify-dark-green;
         }
+
+        &--tn {
+            background-color: rgb(29 30 33);
+        }
     }
 
     &__right-container {
@@ -77,6 +81,21 @@
                 width: 125px;
             }
         }
+
+        &--tn {
+            width: 130px;
+            
+            @include tablet {
+                margin-left: 2.25rem;
+                width: 120px;
+            }
+
+            @include desktop {
+                margin-left: 10rem;
+                width: 125px;
+            }
+
+        }
     }
 
     &__copy {
@@ -99,6 +118,10 @@
 
         &--shopify {
             color: white;
+        }
+
+        &--tn {
+            color: $med-grey;
         }
     }
 
@@ -151,6 +174,15 @@
 
             &:hover {
                 background-color: $shopify-dark-green;
+            }
+        }
+
+        &--tn {
+            background-color: $light-grey;
+
+            &:hover {
+                background-color: rgb(190, 203, 330);
+                color: $dark-grey;
             }
         }
     }
