@@ -36,6 +36,10 @@
         &--tn {
             background-color: rgb(29 30 33);
         }
+
+        &--davids-tea {
+            background-color: white;
+        }
     }
 
     &__right-container {
@@ -183,6 +187,14 @@
             &:hover {
                 background-color: rgb(190, 203, 330);
                 color: $dark-grey;
+            }
+        }
+
+        &--davids-tea {
+            background-color: $davids-tea-green;
+
+            &:hover {
+                background-color: $davids-tea-dark-green;
             }
         }
     }
