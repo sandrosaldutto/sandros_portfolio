@@ -24,19 +24,29 @@
         }
     }
     
-    &__about-container {
+    &__name-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding: .5rem 0;
-        background: $blue;
+        padding: 1rem 0;
+        background: $dark-blue;
+    }
+
+    &__name {
+        color: white;
+        margin: .5rem 0;   
+    }
+
+    &__role {
+        color: rgb(192, 192, 192);
+        margin: .25rem 0;
     }
     
     &__email {
         margin: 1rem 0 .5rem 0;
-        color: white;
+        color: black;
         font-size: 1rem;
         font-weight: bold;
 
@@ -48,7 +58,7 @@
 
     &__phone {
         margin: .5rem 0;
-        color: white;
+        color: black;
         font-size: .85rem;
         font-weight: bold;
 
@@ -72,14 +82,8 @@
         }
     }
 
-    &__avatar {
-        margin-top: 1rem;
-        width: 100px;
-        align-self: center;
-
-        @include tablet {
-            width: 110px;
-        }
+    &__sandro {
+        width: 80%;
     }
 
     &__contact {
