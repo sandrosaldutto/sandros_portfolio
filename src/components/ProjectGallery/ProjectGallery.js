@@ -26,12 +26,12 @@ function ProjectGallery() {
         ></img>
         <div className="projects__right-container">
           <p className="projects__copy">
-            Telect is a web-responsive application that strives to satisfy the
-            avid TV show watcher's need for organization. The app provides the
-            user with the ability to search shows from a database, and add and
-            remove these shows from their list. Telect is my capstone project
-            that I created while attending Branstation's Web Developent
-            bootcamp.
+            This project takes you through an example of the design process. It
+            includes a detailed persona, wireframes and some final designs. The
+            app provides the user with the ability to search for different tea
+            by category, and order it to your door. The app also has a built in
+            bar code scanner that automatically gives you instructions on how to
+            make the perfect version of that soecfic tea.
           </p>
           <a
             className="projects__link"
@@ -88,9 +88,8 @@ function ProjectGallery() {
             Telect is a web-responsive application that strives to satisfy the
             avid TV show watcher's need for organization. The app provides the
             user with the ability to search shows from a database, and add and
-            remove these shows from their list. Telect is my capstone project
-            that I created while attending Branstation's Web Developent
-            bootcamp.
+            remove these shows from their list. This app is 100% designed and
+            developed by me.
           </p>
           <a
             className="projects__link"
