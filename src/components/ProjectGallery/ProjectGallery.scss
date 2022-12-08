@@ -24,11 +24,6 @@
             padding: 2rem 4rem;
         }
 
-        &--wordler {
-            background-color: white;
-            margin: 2rem 0;
-        }
-
         &--shopify {
             background-color: $shopify-dark-green;
         }
@@ -165,13 +160,6 @@
             width: 100%;
         }
 
-        &--wordler {
-            background-color: $wordler-purple;
-            
-            &:hover {
-                background-color: $wordler-dark-purple
-            }
-        }
 
         &--shopify {
             background-color: $shopify-light-green;

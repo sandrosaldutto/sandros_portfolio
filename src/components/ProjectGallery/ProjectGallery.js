@@ -1,6 +1,5 @@
 import "./ProjectGallery.scss";
 import telectIcon from "../../assets/icons/telect.svg";
-import wordlerIcon from "../../assets/icons/wordler.svg";
 import shopifyIcon from "../../assets/icons/shopify.svg";
 import tnIcon from "../../assets/icons/tn.svg";
 import davidsTeaIcon from "../../assets/icons/davids-tea.svg";
@@ -103,35 +102,7 @@ function ProjectGallery() {
           </a>
         </div>
       </div>
-      <div
-        data-aos="fade-down"
-        className="projects__container projects__container--wordler"
-      >
-        <img
-          className="projects__logo"
-          src={wordlerIcon}
-          alt="wordler logo"
-        ></img>
-        <div className="projects__right-container">
-          <p className="projects__copy">
-            Wordler is a kid-centric twist on the popular Wordle game. The game
-            provides a 5-letter word with jumbled letters that the user must
-            assemble into a real word. Wordler is an example of a 24-hour
-            hack-a-thon, done in pairs, from Brainstation's Web Development
-            Program.
-          </p>
-          <a
-            className="projects__link"
-            href="https://wordler-client.herokuapp.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="projects__button projects__button--wordler">
-              Enter Site
-            </button>
-          </a>
-        </div>
-      </div>
+
       <div
         data-aos="fade-down"
         className="projects__container projects__container--shopify"
