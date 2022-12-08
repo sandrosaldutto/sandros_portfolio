@@ -16,7 +16,7 @@ function Header() {
         <p className="header__role">Designer Developer</p>
       </div>
       <div className="header__bio-container">
-        <h3>Bio</h3>
+        <h3 className="header__title">Bio</h3>
         <p className="header__bio">
           Hello, I'm Sandro Saldutto. I'm a designer who codes. I done many
           different design project from full stack development to prototyping to
@@ -28,7 +28,7 @@ function Header() {
       </div>
 
       <div className="header__contact-container">
-        <h3>Contact</h3>
+        <h3 className="header__title header__title--contact">Contact</h3>
         <div className="header__contact">
           <a
             className="header__linkedin-link"
@@ -56,15 +56,23 @@ function Header() {
       </div>
 
       <div className="header__brands-container">
-        <h3>Brands</h3>
-        <img src={spotifyLogo} alt="spotify" className="header__brand-logo" />
-        <img src={appleLogo} alt="apple" className="header__brand-logo" />
-        <img src={cobraLogo} alt="cobra" className="header__brand-logo" />
-        <img
-          src={sportChekLogo}
-          alt="sport chek"
-          className="header__brand-logo"
-        />
+        <h3 className="header__title">Brands</h3>
+        <div className="header__logos-container">
+          <img src={spotifyLogo} alt="spotify" className="header__brand-logo" />
+          <img
+            src={cobraLogo}
+            alt="cobra"
+            className="header__brand-logo header__brand-logo--cobra "
+          />
+        </div>
+        <div className="header__logos-container">
+          <img src={appleLogo} alt="apple" className="header__brand-logo" />
+          <img
+            src={sportChekLogo}
+            alt="sport chek"
+            className="header__brand-logo header__brand-logo--sportchek"
+          />
+        </div>
       </div>
     </section>
   );
