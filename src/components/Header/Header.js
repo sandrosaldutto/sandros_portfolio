@@ -9,8 +9,8 @@ import cobraLogo from "../../assets/icons/cobra.svg";
 
 function Header() {
   return (
-    <section id="contact" className="header">
-      <img src={sandro} alt="sandro" className="header__sandro" />
+    <section className="header">
+      <img id="home" src={sandro} alt="sandro" className="header__sandro" />
       <div className="header__name-container">
         <h2 className="header__name">Sandro Saldutto</h2>
         <p className="header__role">Designer Developer</p>
@@ -18,8 +18,12 @@ function Header() {
       <div className="header__bio-container">
         <h3>Bio</h3>
         <p className="header__bio">
-          Designer / Developer with the skill set, knowledge and understanding
-          of both the design and development stages.
+          Hello, I'm Sandro Saldutto. I'm a designer who codes. I done many
+          different design project from full stack development to prototyping to
+          simple stationary requests. Ive been a designer for around 7 years. I
+          care deeply about how design effects the user in any sort of medium.
+          On my free time I enjoy gaming, playing golf and hanging out with
+          friends.
         </p>
       </div>
 
