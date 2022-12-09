@@ -10,10 +10,12 @@ import cobraLogo from "../../assets/icons/cobra.svg";
 function Header() {
   return (
     <section className="header">
-      <img id="home" src={sandro} alt="sandro" className="header__sandro" />
-      <div className="header__name-container">
-        <h2 className="header__name">Sandro Saldutto</h2>
-        <p className="header__role">Designer Developer</p>
+      <div className="header__intro-container">
+        <img id="home" src={sandro} alt="sandro" className="header__sandro" />
+        <div className="header__name-container">
+          <h2 className="header__name">Sandro Saldutto</h2>
+          <p className="header__role">Designer Developer</p>
+        </div>
       </div>
       <div className="header__bio-container">
         <h3 className="header__title">Bio</h3>
