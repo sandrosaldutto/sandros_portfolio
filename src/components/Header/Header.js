@@ -14,18 +14,18 @@ function Header() {
         <img id="home" src={sandro} alt="sandro" className="header__sandro" />
         <div className="header__name-container">
           <h2 className="header__name">Sandro Saldutto</h2>
-          <p className="header__role">Designer Developer</p>
+          <p className="header__role">Designer | Developer</p>
         </div>
       </div>
       <div className="header__bio-container">
         <h3 className="header__title">Bio</h3>
         <p className="header__bio">
-          Hello, I'm Sandro Saldutto. I'm a designer who codes. I done many
-          different design project from full stack development to prototyping to
-          simple stationary requests. Ive been a designer for around 7 years. I
-          care deeply about how design effects the user in any sort of medium.
-          On my free time I enjoy gaming, playing golf and hanging out with
-          friends.
+          Hello, I'm Sandro. I'm a designer that codes. I've done many different
+          projects from full stack development, to prototyping and building
+          brands. I've been a designer for more than 7 years, and I care deeply
+          about how design affects the user experience in every medium. I spend
+          my free time gaming, playing golf and hanging out with friends, family
+          and dog, Oaks.
         </p>
       </div>
 
