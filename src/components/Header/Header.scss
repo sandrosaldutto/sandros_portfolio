@@ -9,6 +9,7 @@
     justify-content: center;
     margin-top: 1rem;
     flex-wrap: wrap;
+    margin-bottom: 1rem;
     
     @include tablet {
         align-items: flex-start;
@@ -16,26 +17,35 @@
     }
 
     @include desktop {
-        margin-top: 7rem;
+        margin-top: 10rem;
     }
 
     &__bold {
         font-size: 1rem;
         font-weight: bold;
         color: $blue;
+
+        @include desktop {
+            font-size: 1.25rem;
+        }
     }
 
     &__title {
         text-align: left;
         margin-left: 2rem;
         margin-right: 2rem;
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid $dark-blue;
         padding-bottom: .5rem;
         margin-top: 3rem;
         font-size: 1.25rem;
+        color: $dark-blue;
 
         &--contact {
             margin-bottom: 2rem;
+        }
+
+        @include desktop {
+            font-size: 1.5rem
         }
     }
     
@@ -48,6 +58,10 @@
         padding: 1rem 0;
         background: $dark-blue;
         border-radius: 15px 15px 15px 15px;
+
+        @include desktop {
+            width: 300px;
+        }
     }
 
     &__name {
@@ -63,6 +77,10 @@
     &__bio {
         padding: 0 2rem;
         color: rgb(52, 52, 52);
+
+        @include desktop {
+            font-size: 1.125rem;
+        }
     }
     
     &__email {
@@ -70,6 +88,10 @@
         font-size: 1rem;
         font-weight: bold;
         text-align: center;
+
+        @include desktop {
+            font-size: 1.125rem;
+        }
     }
 
     &__phone {
@@ -77,14 +99,26 @@
         font-size: .85rem;
         font-weight: bold;
         text-align: center;
+
+        @include desktop {
+            font-size: 1rem;
+        }
     }
 
     &__linkedin {
         width: 35px;
+
+        @include desktop {
+            width: 50px;
+        }
     }
 
     &__github {
         width: 35px;
+
+        @include desktop {
+            width: 50px;
+        }
     }
 
     &__sandro {
@@ -98,15 +132,23 @@
     }
 
     &__brand-logo {
-        width: 3rem;
+        width: 4rem;
         margin: 1rem;
 
         &--sportchek {
             width: 5.5rem;
+
+            @include desktop {
+                width: 8rem;
+            }
         }
 
         &--cobra {
             width: 5.5rem;
+
+            @include desktop {
+                width: 8rem;
+            }
         }
     }
 
@@ -116,10 +158,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        @include desktop {
+            width: 350px;
+        }
     }
 
     &__bio-container {
         width: 300px;
+
+        @include desktop {
+            width: 300px;
+        }
     }
 
     &__brands-container {
@@ -135,6 +185,11 @@
         margin: auto;
         display: flex;
         justify-content: space-between;
+
+        @include desktop {
+            width: 7rem;
+            margin-bottom: 2rem;
+        }
     }
 
     &__linkedin-link{
