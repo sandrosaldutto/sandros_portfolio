@@ -19,6 +19,12 @@
         margin-top: 7rem;
     }
 
+    &__bold {
+        font-size: 1rem;
+        font-weight: bold;
+        color: $blue;
+    }
+
     &__title {
         text-align: left;
         margin-left: 2rem;
@@ -26,6 +32,7 @@
         border-bottom: 2px solid black;
         padding-bottom: .5rem;
         margin-top: 3rem;
+        font-size: 1.25rem;
 
         &--contact {
             margin-bottom: 2rem;
@@ -37,9 +44,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 250px;
         padding: 1rem 0;
         background: $dark-blue;
+        border-radius: 15px 15px 15px 15px;
     }
 
     &__name {
@@ -54,17 +62,18 @@
 
     &__bio {
         padding: 0 2rem;
+        color: rgb(52, 52, 52);
     }
     
     &__email {
-        color: black;
+        color: rgb(52, 52, 52);
         font-size: 1rem;
         font-weight: bold;
         text-align: center;
     }
 
     &__phone {
-        color: black;
+        color: rgb(52, 52, 52);
         font-size: .85rem;
         font-weight: bold;
         text-align: center;

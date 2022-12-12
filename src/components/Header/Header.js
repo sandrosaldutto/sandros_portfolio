@@ -20,12 +20,12 @@ function Header() {
       <div className="header__bio-container">
         <h3 className="header__title">Bio</h3>
         <p className="header__bio">
-          Hello, I'm Sandro. I'm a designer that codes. I've done many different
-          projects from full stack development, to prototyping and building
-          brands. I've been a designer for more than 7 years, and I care deeply
-          about how design affects the user experience in every medium. I spend
-          my free time gaming, playing golf and hanging out with friends, family
-          and dog, Oaks.
+          <span className="header__bold">Hello</span>, I'm Sandro. I'm a
+          designer that codes. I've done many different projects from full stack
+          development, to prototyping and building brands. I've been a designer
+          for more than 7 years, and I care deeply about how design affects the
+          user experience in every medium. I spend my free time gaming, playing
+          golf and hanging out with friends, family and dog, Oaks.
         </p>
       </div>
 

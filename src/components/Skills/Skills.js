@@ -15,16 +15,57 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-
 function Skills() {
-  
-    useEffect(() => {
-      Aos.init({ duration:1500 });
-    }, [])
-  
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
     <section id="skills" className="skills">
       <h2 className="skills__title">Skills</h2>
+      <div className="skills__container">
+        <img src={designIcon} alt="design" className="skills__icon" />
+        <h2 className="skills__sub-title">Design</h2>
+        <div className="skills__design-skills">
+          <div data-aos="fade-up" className="skills__row">
+            <div className="skills__image">
+              <img
+                src={aiIcon}
+                alt="adobe illustrator"
+                className="skills__tool-icon"
+              />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">Illustrator</h3>
+              </div>
+            </div>
+            <div className="skills__image">
+              <img
+                src={psIcon}
+                alt="adobe photoshop"
+                className="skills__tool-icon"
+              />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">Photoshop</h3>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up" className="skills__row">
+            <div className="skills__image">
+              <img src={xdIcon} alt="adobe XD" className="skills__tool-icon" />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">XD</h3>
+              </div>
+            </div>
+            <div className="skills__image">
+              <img src={figmaIcon} alt="figma" className="skills__tool-icon" />
+              <div className="skills__overlay">
+                <h3 className="skills__icon-name">Figma</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="skills__container">
         <img src={webdevIcon} alt="webdev" className="skills__icon" />
         <h2 className="skills__sub-title">Web Development</h2>
@@ -75,48 +116,6 @@ function Skills() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="skills__container">
-        <img src={designIcon} alt="design" className="skills__icon" />
-        <h2 className="skills__sub-title">Design</h2>
-        <div className="skills__design-skills">
-        <div data-aos="fade-up" className="skills__row">
-          <div className="skills__image">
-            <img
-              src={aiIcon}
-              alt="adobe illustrator"
-              className="skills__tool-icon"
-            />
-            <div className="skills__overlay">
-              <h3 className="skills__icon-name">Illustrator</h3>
-            </div>
-          </div>
-          <div className="skills__image">
-            <img
-              src={psIcon}
-              alt="adobe photoshop"
-              className="skills__tool-icon"
-            />
-            <div className="skills__overlay">
-              <h3 className="skills__icon-name">Photoshop</h3>
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-up" className="skills__row">
-          <div className="skills__image">
-            <img src={xdIcon} alt="adobe XD" className="skills__tool-icon" />
-            <div className="skills__overlay">
-              <h3 className="skills__icon-name">XD</h3>
-            </div>
-          </div>
-          <div className="skills__image">
-            <img src={figmaIcon} alt="figma" className="skills__tool-icon" />
-            <div className="skills__overlay">
-              <h3 className="skills__icon-name">Figma</h3>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
     </section>
