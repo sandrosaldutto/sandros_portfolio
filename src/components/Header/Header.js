@@ -6,6 +6,7 @@ import spotifyLogo from "../../assets/icons/spotify.svg";
 import appleLogo from "../../assets/icons/apple.svg";
 import sportChekLogo from "../../assets/icons/sport-chek.svg";
 import cobraLogo from "../../assets/icons/cobra.svg";
+import resume from "../../assets/resume/sandro-saldutto-resume.pdf";
 
 function Header() {
   return (
@@ -55,6 +56,13 @@ function Header() {
         </div>
         <p className="header__email">sandro.saldutto@hotmail.ca</p>
         <p className="header__phone">416 271 3726</p>
+        <div className="header__resume-container">
+          <button className="header__resume-button">
+            <a className="header__resume" href={resume} download>
+              Resume
+            </a>
+          </button>
+        </div>
       </div>
 
       <div className="header__brands-container">
