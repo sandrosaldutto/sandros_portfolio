@@ -54,8 +54,6 @@ function Header() {
             <img src={githubLogo} alt="github" className="header__github" />
           </a>
         </div>
-        <p className="header__email">sandro.saldutto@hotmail.ca</p>
-        <p className="header__phone">416 271 3726</p>
         <div className="header__resume-container">
           <button className="header__resume-button">
             <a className="header__resume" href={resume} download>
